@@ -1,0 +1,32 @@
+name: Build and Push stillgreen-blog Image
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Log in to GitHub Container Registry
+        run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
+
+      - name: Build Docker image
+        run: |
+          docker build \
+            --platform linux/amd64 \
+            -t ghcr.io/mikehung1997/stillgreen-blog:latest \
+            -t ghcr.io/mikehung1997/stillgreen-blog:${{ github.run_number }} .
+
+      - name: Push Docker image
+        run: |
+          docker push ghcr.io/mikehung1997/stillgreen-blog:latest
+          docker push ghcr.io/mikehung1997/stillgreen-blog:${{ github.run_number }}
