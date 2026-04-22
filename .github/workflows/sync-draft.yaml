@@ -1,0 +1,28 @@
+name: Sync main to draft
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Merge main into draft
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git checkout draft
+          git merge main --no-edit
+          git push origin draft
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
