@@ -4,7 +4,7 @@ description: "Does Your Email Newsletter Have a Carbon Footprint? (It Does — H
 pubDate: "2026-04-30"
 slug: "email-newsletter-carbon-footprint-ecosend"
 tags: ["email marketing", "sustainable SaaS", "carbon neutral", "green tech", "EcoSend", "sustainable business"]
-heroImage: "../../assets/email-newsletter-carbon-footprint-ecosend.jpg"
+heroImage: "../../assets/email-newsletter-carbon-footprint-ecosend.png"
 affiliateUrl: "https://ecosend.io"
 affiliateUrlPending: true
 draft: true
