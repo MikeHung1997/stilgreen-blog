@@ -10,7 +10,6 @@ affiliateUrlPending: true
 draft: true
 ---
 
-# Best Carbon-Neutral Email Marketing Tools in 2026
 
 Every email you send has a carbon footprint. Data centers, servers, and network infrastructure consume massive amounts of energy—and most of it still comes from fossil fuels. If you're running email campaigns for your business, you could be generating tons of CO2 annually without even realizing it.
 

@@ -10,7 +10,6 @@ affiliateUrlPending: true
 draft: true
 ---
 
-# Why Your Email Marketing Is Secretly Destroying the Planet (And How to Fix It)
 
 You probably didn't wake up this morning thinking your email newsletter was contributing to climate change. But here's the uncomfortable truth: every email you send has a carbon footprint.
 

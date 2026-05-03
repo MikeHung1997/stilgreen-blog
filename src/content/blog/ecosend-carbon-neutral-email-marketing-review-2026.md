@@ -10,7 +10,6 @@ affiliateUrlPending: true
 draft: true
 ---
 
-# Your Emails Are Costing the Planet More Than You Think — Here's the Tool Fixing That
 
 You schedule a campaign. You hit send. A hundred thousand emails go out.
 
