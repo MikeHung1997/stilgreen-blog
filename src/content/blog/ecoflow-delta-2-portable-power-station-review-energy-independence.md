@@ -10,7 +10,6 @@ affiliateUrlPending: true
 draft: true
 ---
 
-# What Happens When the Grid Goes Down? The Portable Power Station That Changed How I Think About Energy Independence
 
 Last winter, a storm knocked out power in my neighborhood for 14 hours. My laptop died mid-deadline. The fridge went silent. I sat in the dark scrolling Twitter on my dying phone, reading about grid instability and planned blackouts becoming the new normal.
 

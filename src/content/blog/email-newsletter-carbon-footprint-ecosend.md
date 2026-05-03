@@ -10,7 +10,6 @@ affiliateUrlPending: true
 draft: true
 ---
 
-# Does Your Email Newsletter Have a Carbon Footprint? (It Does — Here's What to Do About It)
 
 You optimized your subject lines. You A/B tested your CTAs. You cleaned your list and got your open rates up.
 
